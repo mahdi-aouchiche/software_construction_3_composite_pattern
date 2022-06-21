@@ -17,7 +17,7 @@ class Op : public Base
             this->operand = value;
         } 
 
-        /* impliment virtual function for the Base class */
+        /* implement virtual functions for the Base class */
         virtual double evaluate() { 
             /* return the local saved variable */
             return this->operand;
