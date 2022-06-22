@@ -82,7 +82,7 @@ So far you have developed the classes necessary to build the composite structure
 
 To receive credit for this lab you must show your TA that you are able to build and run the `lab` executable and generate the correct result and that you have a suite of test cases with appropriate coverage. You also need to show a clean Memcheck report with no errors or leaks.
 
-## To run the tests and the lab use these Linux commands:
+## To run the tests and the lab use these Linux commands (this repositpry uses google submodules for tests, to clone use: $ git clone --Recursive <github-repo-URL>):
      $ mkdir build
      $ cd build
      $ cmake ..
