@@ -13,6 +13,8 @@ class Rand : public Base
         /* Constructor */
         Rand() : Base()
         {
+            /* use a seed generate random numbers each time Rand object is created */
+            srand(time(0));
             /* save generated value into local variable */
             this->random = rand() % 100;
         } 
